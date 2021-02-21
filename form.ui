@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>529</width>
+    <height>368</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>330</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>431</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="LastName">
+      <property name="text">
+       <string>Фамилия</string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_6</cstring>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_6"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="FirstName">
+      <property name="text">
+       <string>Имя</string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_5</cstring>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_5"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="MiddleName">
+      <property name="text">
+       <string>Отчество</string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_4</cstring>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_4"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="Address">
+      <property name="text">
+       <string>Адрес</string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_3</cstring>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="HomePhoneNamber">
+      <property name="text">
+       <string>Дом. телефон</string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit_2</cstring>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="MobilePhoneNamber">
+      <property name="text">
+       <string>Моб. телефон</string>
+      </property>
+      <property name="buddy">
+       <cstring>lineEdit</cstring>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="Other">
+      <property name="text">
+       <string>Другое</string>
+      </property>
+      <property name="buddy">
+       <cstring>textEdit</cstring>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
